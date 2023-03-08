@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url(images/bilgisayar-muhendisi-nedir-52.jpg) ;
+    position: center;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 35px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    cursor: pointer;
+    height: 100px;  
+    border-radius: 50%;  
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px;
+
+}
+ .navbar ul li a{
+    text-decoration: none;
+    color: azure;
+    display: block;
+ }
+ .content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    color: aliceblue;
+    text-align: center;
+ }
+ .content h1{
+    font-size: 65px;
+ }
+ .content p{
+    margin: 20px auto;
+ }
+ .button{
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 20px;
+    text-align: center;
+    color: bisque;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: chocolate;
+    font-size: 17px;
+ }
+ button:hover{
+    color: black;
+    transition: 1s;
+ }
+ .contact{
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    background-color:antiquewhite;
+ }
+ .contact h3{
+    margin: auto;
+    text-align: center;
+    color: chocolate ;
+    position: center;
+    margin: 50px;
+ }
